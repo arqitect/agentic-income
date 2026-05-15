@@ -1,0 +1,38 @@
+{
+  "title": "LeadRecord",
+  "type": "object",
+  "required": [
+    "business_name",
+    "category",
+    "city",
+    "website",
+    "source_url",
+    "score_1_to_5",
+    "status"
+  ],
+  "properties": {
+    "business_name": { "type": "string" },
+    "category": { "type": "string" },
+    "city": { "type": "string" },
+    "website": { "type": "string" },
+    "phone_if_public": { "type": "string" },
+    "email_if_public": { "type": "string" },
+    "contact_page_if_public": { "type": "string" },
+    "google_rating_if_found": { "type": "string" },
+    "review_count_if_found": { "type": "string" },
+    "website_quality_notes": { "type": "string" },
+    "quote_flow_notes": { "type": "string" },
+    "review_opportunity": { "type": "string" },
+    "automation_opportunity": { "type": "string" },
+    "likely_offer_angle": { "type": "string" },
+    "score_1_to_5": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "confidence": { "type": "string" },
+    "source_url": { "type": "string" },
+    "next_step": { "type": "string" },
+    "status": { "type": "string" }
+  }
+}

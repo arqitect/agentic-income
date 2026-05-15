@@ -6,6 +6,19 @@ The recommended starting point is owner-operated home and property service busin
 
 ## Fastest Path To First Revenue
 
+## Quickstart
+
+If you only do one thing, follow `GETTING_STARTED.md` for the linear setup-to-first-client workflow.
+
+Suggested order:
+
+1. `GETTING_STARTED.md`
+2. `00_executive_summary.md`
+3. `03_recommended_business_model.md`
+4. `09_lead_generation_system.md`
+5. `10_sales_outreach.md`
+6. `20_client_delivery_sops.md`
+
 1. Pick one tight niche cluster first: exterior cleaning/property maintenance.
 2. Research 25 local leads manually and score them.
 3. Create 5 short audits for the best-fit businesses.
@@ -114,3 +127,12 @@ Why this niche first:
 - No public exposure of internal dashboards or secrets.
 - No scraping that violates site terms or causes abusive traffic.
 - No massive buildout before a paid beta proves demand.
+
+
+## Repository Governance
+
+- `CONTRIBUTING.md`: contribution standards and PR checklist.
+- `SECURITY.md`: private vulnerability reporting process.
+- `.github/pull_request_template.md`: standard PR format.
+- `.github/ISSUE_TEMPLATE/`: issue templates for bug/content updates.
+- `LICENSE`: repository license terms.
