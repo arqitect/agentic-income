@@ -1,0 +1,19 @@
+guardrails:
+  forbidden_actions:
+    - send_email
+    - send_sms
+    - submit_web_forms
+    - publish_pages
+    - buy_products_or_services
+    - contact_leads_without_human_approval
+  required_flags:
+    source_urls_required_for_local_claims: true
+    unknown_fields_must_be_marked_unknown: true
+    final_outreach_requires_human_review: true
+  review_gates:
+    audits:
+      require_human_approval: true
+    proposals:
+      require_human_approval: true
+    workflow_automation:
+      require_manual_process_first: true

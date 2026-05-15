@@ -1,0 +1,4 @@
+scenario,day_30_revenue,day_60_revenue,day_90_revenue,monthly_tool_cost_low,monthly_tool_cost_high,hours_per_week_low,hours_per_week_high,notes
+conservative,450,1350,2250,50,90,6,12,one beta plus one small follow-on project
+base,900,2700,4650,80,140,8,18,one beta then two standard setups and light support
+aggressive,1500,4200,7500,100,180,12,25,faster closes and early monthly support

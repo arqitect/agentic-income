@@ -1,0 +1,22 @@
+# Client Intake Form Fields
+
+- client name
+- business legal name
+- DBA if different
+- primary contact name
+- primary contact email
+- primary contact phone
+- website URL
+- Google Business Profile URL
+- target services
+- target cities / service area
+- current pain points
+- desired outcome
+- current tools used
+- who handles new leads now
+- what happens after a lead comes in
+- review links
+- photo / asset links
+- access needed
+- deadline or timing constraints
+- approval contact

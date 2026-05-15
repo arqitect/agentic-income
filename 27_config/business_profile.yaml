@@ -1,0 +1,34 @@
+project:
+  name: santa-cruz-agentic-income-plan
+  owner: Eric Fadeyev
+  market: Santa Cruz County, California
+  last_updated: 2026-05-13
+
+business_model:
+  category: local lead and follow-up systems
+  primary_niche: exterior cleaning and property maintenance
+  first_offer: Quote Flow Fix
+  pricing:
+    beta_min_usd: 300
+    beta_max_usd: 500
+    standard_min_usd: 700
+    standard_max_usd: 1300
+    monthly_support_min_usd: 99
+    monthly_support_max_usd: 249
+
+stack:
+  hermes: https://hermes.ericfadeyev.com
+  n8n: https://n8n.ericfadeyev.com
+  open_webui: https://ai.ericfadeyev.com
+  npmplus_ip: 10.1.1.20
+  n8n_ip: 10.1.1.21
+  hermes_ip: 10.1.1.23
+  open_webui_ip: 10.1.1.35
+  access_model: LAN/Tailscale only
+
+rules:
+  no_autonomous_outreach: true
+  no_public_dashboards: true
+  human_approval_required_for_contact: true
+  verify_local_claims_before_use: true
+  pre_revenue_automation_minimal_only: true
